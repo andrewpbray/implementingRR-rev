@@ -39,12 +39,13 @@ xix+428 pp.
 \raggedright\baselineskip=18pt\parindent=2em\parskip=5pt
 
 %%%%% ENTER THE BODY OF THE BOOK REVIEW BELOW %%%%%
+
+The concept of reproducibility is closely related to that of replication.
 Reproducibility is defined as, ``the calculation of quantitiative scientific results by
-independent scientists using the original datasets and methods'' (p.\ vii). The challenge
-of reproducibility in the computational era is being confronted across the 
-sciences, with each field developing its own tools and best practices.   This
-book is an important step in bringing together a broad group of scientists to 
-share what has been learned.
+independent scientists using the original datasets and methods'' (p.\ vii). Replication,
+then, goes the additional step of collecting new data. If replication is one of
+the foundational principles of science, ensuring a reproducible analysis is its
+necessary precursor and the focus of this important and timely new book.
 
 In the preface, the editors specify that their objective is not to convince the
 reader \emph{why} reproducibility is important, but rather \emph{how} it can 
@@ -53,9 +54,9 @@ Guidelines, and Platforms, that mirror the three directions of research in
 reproducibility. One contributor then usefully divides tools for reproducible research into three 
 general categories: tools for literate programming (Ch. 1: knitr in R), workflow management 
 systems (Ch. 2: VisTrails), and tools for environment capture (Ch. 3: Sumatra, Ch. 4: CDE). 
-I was most familiar with knitr, but I still learned alot from the discussion
- of the design elements that specifically enable reproducibility, including chunk 
-re-use and conditional evaluation. The remaining tools were new to me and address
+I was most familiar with knitr, an R package used to blend computing and text,
+but I still learned alot from the author's discussion of the design elements that
+specifically enable reproducible analyses. The remaining tools were new to me and address
 the added challenges when faced with a more complex workflow and software that
 involves many dependencies. Note that these chapters are not full
 tutorials; the reader will not emerge as a well-versed user, but hopefully with a 
@@ -71,27 +72,29 @@ without barriers.  Chapter 8 provides the prospective from within industry of a
 large-scale data anlysis project. Chapter 10 describes how cloud-based virtual 
 machines (VM) can enable anyone to recreate a computational experience in an 
 environment identical to that of the original authors. Chapter 12 reviews the
-tenets of traditional intellectual property law and the discusses the difficulty
+tenets of traditional intellectual property law and discusses the difficulty
  this poses for reproducibility. Chapter 14 introduces the reader to runmycode.org,
 a user-friendly web-based platform that allows one to tweak-the-knobs, so to say,
 on an analysis.
 
-This book should have incredibly broad appeal; the more general chapters 
-from this book should be of interest to any empirical scientist.  Most contributors
-assume familiarity with scientific computing. I can imagine this book serving as
+This book should have broad appeal; the more general chapters 
+from this book should be of interest to any empirical scientist. Most contributors
+assume some familiarity with scientific computing, and for the most technical 
+chapters, familiarity with UNIX-based platforms will be useful. I can imagine this book serving as
 a guide to improved reproducibility within a research lab or as terrific  
-material to kickstart discussion for a university working group on reproducibility.
+material to kickstart discussion for a university working group on reproducibility.  As a
+compendium of best practices, it would also be a valuable read for new graduate
+students who are in the process of forming their research habits.
 
 As a cover-to-cover read, the book can be repetitive (literate programming, version
 control, and topics in open science are covered in multiple chapters).  It can also be
 disorganized, with sections varying greatly in level of technical background
 (e.g. Chapter 4 assumes familiarity with Linux while Chapter 8 reverts to a primer on
-the basics of computing). In the preface, the editors describe six chapters to appear
-in the Tools section, yet there are only four to be found. Additionally, some readers might be 
+the basics of computing). Additionally, some readers might be 
 surprised to find that, for a book published as part of \emph{The R Series}, 
 Python gets as much coverage as R, and much of the book is language-agnostic.
 Considering the many arguments that this book makes for open science, it was
-reassuring to find that full pdfs of every chapter (including the missing one by 
+reassuring to find that full pdfs of every chapter (including a missing one by 
 Malik et al.) can be downloaded for free through the Open Science Framework 
 (implementingrr.org). One can't help but feel this to be the more natural format
  for this material: dynamic, modular, and with no barriers to access.
@@ -106,8 +109,10 @@ environments.  Another is the promise of collaborative science, from the distrib
 replication studies of The Reproducibility Project (Ch. 11) to the reevaluation of traditional 
 peer review practices in light of the paradigm epitomized by GitHub's pull-request.
 
-In sum: do not buy this book. Do download pdfs of the chapters of interest to you
-and distribute them far and wide. This is vitally important stuff.
+The challenge of reproducibility in the computational era is being confronted 
+across the sciences, with each field developing its own tools and best practices.
+This book is an very important step in bringing together a broad group of scientists
+to share what has been learned.
 
 
 %%%%% END OF REVIEW 
